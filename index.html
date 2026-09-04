@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Sỹ Vỹ & Thu Thảo | Wedding</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap');
+:root{--wine:#650b1d;--wine2:#7d1028;--gold:#c9a35b;--cream:#fffdf9;--ink:#4b1820;--max:760px}
+*{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:radial-gradient(circle at 15% 10%,#fff7f4 0,#f6e7e5 32%,#fff 72%);color:var(--ink);font-family:'Playfair Display',Georgia,serif}.page{width:min(100%,var(--max));margin:auto;overflow:hidden;background-color:var(--cream);background-image:url('images/wedding-bg.svg'),linear-gradient(180deg,rgba(255,255,255,.72),rgba(255,250,247,.88));background-size:100% auto,100% 100%;background-repeat:repeat-y,no-repeat;background-blend-mode:multiply,normal;box-shadow:0 0 40px #00000010;position:relative}.section{position:relative;padding:55px 28px;text-align:center;overflow:hidden;background:linear-gradient(180deg,rgba(255,253,249,.30),rgba(255,250,247,.18))}.paper:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 20%,#fff8 70%),repeating-linear-gradient(0deg,#fff 0,#fff 3px,#fffdf8 4px);opacity:.9;pointer-events:none}.section>*{position:relative;z-index:1}.kicker{font-size:13px;letter-spacing:5px;margin-bottom:35px}.script{font-family:'Great Vibes',cursive}.names{font-size:48px;line-height:1.05;font-weight:400;margin:12px 0}.amp{font-family:Georgia;font-size:34px;margin:8px 0}.date{letter-spacing:3px;font-size:16px;margin-top:18px}.sub{font-size:13px;letter-spacing:2px;color:#8d5b62}.floral{position:absolute;width:150px;height:150px;opacity:.9;filter:sepia(.15)}
+/* HERO */
+.hero{min-height:930px;padding-top:82px;background:#fff}.hero .envelope{width:min(410px,82vw);height:500px;margin:0 auto 55px;position:relative}.hero .photo{position:absolute;left:8%;right:8%;top:0;height:330px;border-radius:2px 2px 0 0;overflow:hidden;clip-path:polygon(7% 0,93% 0,100% 55%,100% 100%,0 100%,0 55%);background:#fff}.hero .photo img{width:100%;height:100%;object-fit:cover;object-position:center 20%}.envelope-body{position:absolute;left:0;right:0;bottom:0;height:270px;background:linear-gradient(145deg,#75132b,#5e091b);border-radius:0 0 4px 4px;box-shadow:0 18px 25px #4b001522}.envelope-body:before,.envelope-body:after{content:"";position:absolute;bottom:0;width:0;height:0;border-style:solid}.envelope-body:before{left:0;border-width:0 205px 180px 0;border-color:transparent #861934 transparent transparent}.envelope-body:after{right:0;border-width:0 0 180px 205px;border-color:transparent transparent #4f0617 transparent}.seal{position:absolute;z-index:3;left:50%;top:52%;transform:translate(-50%,-50%);width:55px;height:55px;border-radius:50%;background:radial-gradient(circle,#f1cf82,#a87328);display:grid;place-items:center;color:#5a2811;font-size:30px;box-shadow:0 3px 8px #0005}.hero-names{margin-top:-10px}.hero .names{font-size:55px}.hero .names span{display:block}.hero .script-line{font-family:'Great Vibes';font-size:25px;color:#a77747;margin-top:15px}
+/* DETAILS */
+.card{background:linear-gradient(145deg,#751128,#5b0719);color:white;border-radius:0 0 12px 12px;padding:52px 32px;box-shadow:0 15px 30px #3d071b18;margin:0 auto;max-width:600px}.card h2{font-size:31px;margin:0 0 22px;font-weight:400}.parents{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:32px 0}.parent h3{font-size:13px;letter-spacing:2px;margin:0 0 12px}.parent p{font-size:15px;line-height:1.8;margin:0;color:#fff9}.divider{width:60px;height:1px;background:#d7bd8c;margin:30px auto}.fullnames{font-size:28px;line-height:1.8}.fullnames small{display:block;font-size:10px;letter-spacing:3px;color:#e5cfaa}
+/* ALBUM */
+.album{padding-top:45px}.album h2,.location h2,.guest h2{font-size:18px;letter-spacing:1px;margin:0 0 38px}.stage{height:540px;position:relative;perspective:1100px;display:flex;align-items:center;justify-content:center}.slide{position:absolute;width:min(330px,70vw);height:455px;border-radius:10px;overflow:hidden;box-shadow:0 18px 40px #25030c28;transition:transform .8s cubic-bezier(.2,.7,.2,1),opacity .6s,filter .6s;backface-visibility:hidden;background:#eee}.slide img{width:100%;height:100%;object-fit:cover}.slide.active{transform:translateX(0) translateZ(100px) rotateY(0);z-index:5;opacity:1}.slide.prev{transform:translateX(-240px) translateZ(-100px) rotateY(35deg);z-index:3;opacity:.55}.slide.next{transform:translateX(240px) translateZ(-100px) rotateY(-35deg);z-index:3;opacity:.55}.slide.farprev{transform:translateX(-390px) translateZ(-250px) rotateY(45deg);opacity:.15}.slide.farnext{transform:translateX(390px) translateZ(-250px) rotateY(-45deg);opacity:.15}.arrow{position:absolute;z-index:10;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;border:1px solid #6b1a29;background:#fff;color:#6b1a29;font-size:25px;cursor:pointer}.arrow.left{left:5%}.arrow.right{right:5%}.dots{display:flex;gap:6px;justify-content:center;margin-top:8px}.dot{width:6px;height:6px;border-radius:50%;background:#d7c7c8}.dot.active{background:var(--wine);width:20px;border-radius:5px}.counter{font-size:11px;letter-spacing:3px;margin-top:13px;color:#8a6268}
+/* EVENT */
+.event{padding-top:25px}.event .card{border-radius:10px;padding:45px 25px}.event-date{display:flex;justify-content:center;align-items:center;gap:24px;margin:22px 0}.event-date b{font-size:54px;font-weight:400}.event-date span{font-size:17px;letter-spacing:2px}.count{display:flex;justify-content:center;gap:10px;margin:30px auto}.count .unit{min-width:65px}.count b{display:block;font-size:25px;font-weight:400}.count small{font-size:9px;letter-spacing:1px;color:#e7d0ad}.calendar{background:#fff;color:#63323b;border-radius:12px;padding:20px;margin:30px auto 0;max-width:390px}.calendar-title{font-family:'Great Vibes';font-size:29px;margin-bottom:12px}.week,.days{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;font-size:11px}.week{border-bottom:1px solid #4e1a22;padding-bottom:10px;margin-bottom:8px}.days div{height:31px;display:grid;place-items:center}.days .chosen{width:29px;height:29px;margin:auto;border-radius:50%;background:var(--wine);color:#fff;box-shadow:0 3px 8px #5e091b55}
+/* LOCATION/GUEST */
+.location{padding-top:45px}.map{width:100%;height:330px;border:0;border-radius:12px;box-shadow:0 12px 30px #0001}.mapbtn{display:inline-block;margin-top:18px;padding:12px 22px;border-radius:25px;background:var(--wine);color:#fff;text-decoration:none;font-size:13px}.guest{padding-bottom:70px}.guestbox{background:#fff;border-radius:15px;padding:28px;box-shadow:0 12px 35px #4b0c1512;text-align:left}.guest input,.guest textarea{width:100%;padding:14px 15px;border:1px solid #7d6266;border-radius:8px;margin-bottom:13px;font-family:inherit;outline:none}.guest textarea{height:120px;resize:vertical}.guest button{display:block;margin:0 auto;background:var(--wine);color:#fff;border:0;border-radius:24px;padding:13px 28px;font-family:inherit;cursor:pointer}.messages{margin-top:20px}.msg{border-top:1px solid #eee;padding:13px 0}.msg strong{font-size:13px}.msg p{margin:5px 0 0;font-size:13px;color:#6f555a;line-height:1.6}.footer{font-size:12px;letter-spacing:1px;color:#9c7b7f;margin-top:35px}.music{position:fixed;right:20px;bottom:20px;width:52px;height:52px;border-radius:50%;border:0;background:var(--wine);color:#fff;box-shadow:0 7px 18px #0003;z-index:100;cursor:pointer}.music.on{animation:spin 4s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:600px){.section{padding-left:18px;padding-right:18px}.hero{min-height:850px;padding-top:55px}.hero .envelope{height:430px}.hero .photo{height:285px}.envelope-body{height:230px}.envelope-body:before{border-width:0 50vw 150px 0}.envelope-body:after{border-width:0 0 150px 50vw}.hero .names{font-size:43px}.parents{gap:12px}.parent p{font-size:13px}.stage{height:470px}.slide{height:390px;width:min(285px,68vw)}.slide.prev{transform:translateX(-155px) translateZ(-90px) rotateY(30deg)}.slide.next{transform:translateX(155px) translateZ(-90px) rotateY(-30deg)}.slide.farprev,.slide.farnext{opacity:0}.arrow.left{left:0}.arrow.right{right:0}.card{padding:38px 18px}}
+
+/* AUTO PLAY */
+.reveal{opacity:1;transform:none}
+.auto-hint{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);
+z-index:120;background:rgba(101,11,29,.9);color:#fff;padding:8px 15px;border-radius:30px;
+font-size:10px;letter-spacing:1.5px;box-shadow:0 5px 18px #0002}
+
+
+/* AUTO CUỘN - bản ổn định */
+html, body { min-height:100%; }
+body { overflow-y:auto !important; overflow-x:hidden !important; } html,body{height:auto !important;}
+#autoRunBadge{
+  position:fixed;right:18px;bottom:18px;z-index:9999;
+  border:0;border-radius:999px;padding:10px 15px;
+  background:#650b1d;color:#fff;font:12px Georgia,serif;
+  box-shadow:0 6px 20px #0003;cursor:pointer;
+}
+#autoRunBadge.paused{opacity:.72}
+
+
+
+
+/* ===== MÀN HÌNH MỞ THIỆP ===== */
+body.invite-locked{overflow:hidden !important}
+#openingScreen{
+ position:fixed;inset:0;z-index:999999;display:flex;align-items:center;justify-content:center;
+ background:linear-gradient(145deg,#4a0714,#741521 52%,#39050f);
+ transition:opacity .7s ease,visibility .7s ease;
+}
+#openingScreen.opened{opacity:0;visibility:hidden;pointer-events:none}
+.opening-card{
+ position:relative;width:min(530px,84vw);box-sizing:border-box;padding:38px 34px 32px;
+ border-radius:8px;text-align:center;color:#5b111b;
+ background:#f8f0e8;box-shadow:0 25px 60px rgba(0,0,0,.38);
+}
+.opening-heart{
+ width:54px;height:54px;margin:0 auto 16px;border-radius:50%;display:flex;
+ align-items:center;justify-content:center;background:#5d0917;color:white;font-size:25px;
+}
+.opening-names{font:38px/1.08 Georgia,"Times New Roman",serif}
+.opening-and{font:20px Georgia,serif;margin:4px 0}
+.opening-date{margin-top:25px;font:17px Georgia,serif}
+.opening-sub{margin-top:16px;font:16px Georgia,serif}
+.opening-btn{
+ display:inline-block;margin-top:24px;padding:13px 32px;border:0;border-radius:28px;
+ background:#620d1b;color:#fff;font:600 16px Georgia,serif;cursor:pointer;
+ box-shadow:0 7px 18px rgba(98,13,27,.3);
+}
+.opening-btn:active{transform:scale(.97)}
+.opening-hint{
+ position:fixed;bottom:16px;left:50%;transform:translateX(-50%);
+ color:rgba(255,255,255,.75);font:11px Georgia,serif;letter-spacing:1.2px;
+}
+
+
+/* HIỆU ỨNG TRÁI TIM TỎA RA KHI NHẤN MỞ THIỆP */
+#heartBurstLayer{position:fixed;inset:0;z-index:1000000;pointer-events:none;overflow:hidden}
+.heart-burst-item{
+ position:absolute;left:50%;top:50%;font-family:Arial,sans-serif;
+ font-size:var(--hs);color:var(--hc);opacity:0;
+ animation:heartBurstFly var(--hd) cubic-bezier(.12,.72,.22,1) forwards;
+ animation-delay:var(--hdelay);
+ text-shadow:0 2px 8px rgba(90,5,20,.22)
+}
+@keyframes heartBurstFly{
+ 0%{opacity:0;transform:translate(-50%,-50%) scale(.15) rotate(0)}
+ 12%{opacity:1}
+ 55%{opacity:1;transform:translate(calc(-50% + var(--hx1)),calc(-50% + var(--hy1))) scale(1) rotate(12deg)}
+ 100%{opacity:0;transform:translate(calc(-50% + var(--hx)),calc(-50% + var(--hy))) scale(.72) rotate(35deg)}
+}
+.opening-card.heart-pop{animation:openingHeartPop .65s cubic-bezier(.2,.8,.2,1)}
+@keyframes openingHeartPop{
+ 0%{transform:scale(1)}
+ 30%{transform:scale(1.045)}
+ 55%{transform:scale(.99)}
+ 100%{transform:scale(1)}
+}
+
+
+/* ===== TRANG TRÍ HOA CƯỚI & ẢNH ĐỘNG ===== */
+.floral-decor{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.flower-cluster{position:absolute;width:170px;height:170px;filter:drop-shadow(0 8px 14px rgba(90,20,35,.10));opacity:.92;transform-origin:center;animation:flowerFloat 7s ease-in-out infinite}
+.flower-cluster.tl{left:-34px;top:-22px}.flower-cluster.tr{right:-36px;top:-28px;transform:scaleX(-1);animation-delay:-2s}.flower-cluster.bl{left:-45px;bottom:-35px;transform:rotate(12deg) scale(.92);animation-delay:-4s}.flower-cluster.br{right:-44px;bottom:-35px;transform:scaleX(-1) rotate(12deg) scale(.92);animation-delay:-5s}
+.flower{position:absolute;width:58px;height:58px;border-radius:50%;background:radial-gradient(circle at center,#f7e8d0 0 10%,#d8899d 11% 20%,transparent 21%),radial-gradient(circle at 50% 8%,#f7dbe3 0 23%,transparent 24%),radial-gradient(circle at 92% 38%,#f1c6d2 0 23%,transparent 24%),radial-gradient(circle at 75% 88%,#e9b2c1 0 23%,transparent 24%),radial-gradient(circle at 25% 88%,#f3cbd6 0 23%,transparent 24%),radial-gradient(circle at 8% 38%,#f6d8e0 0 23%,transparent 24%);filter:drop-shadow(0 3px 5px rgba(70,10,25,.13))}
+.flower.f1{left:24px;top:28px;transform:scale(1.12)}.flower.f2{left:75px;top:6px;transform:scale(.72)}.flower.f3{left:77px;top:72px;transform:scale(.88)}
+.leaf{position:absolute;width:58px;height:24px;border-radius:100% 0 100% 0;background:linear-gradient(135deg,#7b9a78,#b7c99e);transform:rotate(-28deg);opacity:.82}.leaf.l1{left:2px;top:82px}.leaf.l2{left:49px;top:112px;transform:rotate(32deg) scale(.8)}.leaf.l3{left:103px;top:49px;transform:rotate(-5deg) scale(.72)}
+.stem{position:absolute;width:2px;height:95px;background:#758c67;left:70px;top:70px;transform:rotate(18deg);transform-origin:top}
+.petals-layer{position:fixed;inset:0;z-index:90;pointer-events:none;overflow:hidden}
+.floating-petal{position:absolute;top:-30px;width:12px;height:18px;border-radius:80% 20% 80% 20%;background:linear-gradient(135deg,#fff7f4,#e9a7b7);opacity:.72;filter:blur(.1px);animation:petalFall linear infinite}
+.floating-petal:nth-child(1){left:7%;animation-duration:13s;animation-delay:-3s}.floating-petal:nth-child(2){left:21%;animation-duration:17s;animation-delay:-10s;transform:scale(.7)}.floating-petal:nth-child(3){left:38%;animation-duration:15s;animation-delay:-6s;transform:scale(.8)}.floating-petal:nth-child(4){left:56%;animation-duration:19s;animation-delay:-14s;transform:scale(.6)}.floating-petal:nth-child(5){left:73%;animation-duration:14s;animation-delay:-8s;transform:scale(.9)}.floating-petal:nth-child(6){left:89%;animation-duration:18s;animation-delay:-12s;transform:scale(.7)}
+@keyframes flowerFloat{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+.flower-cluster.tr{animation-name:flowerFloatMirror}.flower-cluster.br{animation-name:flowerFloatMirror}
+@keyframes flowerFloatMirror{0%,100%{transform:scaleX(-1) translateY(0) rotate(0deg)}50%{transform:scaleX(-1) translateY(-8px) rotate(-2deg)}}
+@keyframes petalFall{0%{top:-30px;transform:translateX(0) rotate(0deg);opacity:0}10%{opacity:.75}50%{transform:translateX(35px) rotate(180deg)}100%{top:108vh;transform:translateX(-45px) rotate(390deg);opacity:.08}}
+/* Ảnh cưới chuyển động nhẹ, giữ nguyên ảnh gốc */
+.hero .photo img{animation:heroPhotoKenBurn 12s ease-in-out infinite alternate;transform-origin:center}
+@keyframes heroPhotoKenBurn{0%{transform:scale(1)}100%{transform:scale(1.055) translate3d(0,-1%,0)}}
+.opening-card:before,.opening-card:after{content:"";position:absolute;width:95px;height:95px;border-radius:50%;border:1px solid #c9a35b55;pointer-events:none}.opening-card:before{left:-32px;top:-32px}.opening-card:after{right:-32px;bottom:-32px}
+@media(prefers-reduced-motion:reduce){.flower-cluster,.floating-petal,.hero .photo img{animation:none!important}}
+
+/* ===== NÂNG CẤP TRANG TRÍ 2026: hoa, tim, uyên ương, glass/iPhone ===== */
+:root{--rose:#d77f94;--blush:#fff1f4;--champagne:#f4dfb7}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(circle at 12% 15%,#ffdbe5aa,transparent 28%),radial-gradient(circle at 88% 30%,#f6d9cbaa,transparent 30%),linear-gradient(180deg,#fff8fa,#f8ece9 55%,#fffaf6)}
+.page{border-left:1px solid #fff9;border-right:1px solid #fff9;box-shadow:0 24px 70px #5c10201a,0 0 0 1px #fff8}
+.section{isolation:isolate}.section:after{content:"";position:absolute;inset:12px;border:1px solid #c9a35b22;border-radius:24px;pointer-events:none;z-index:0}
+.card,.guestbox,.calendar,.map{box-shadow:0 18px 45px #4d10231c, inset 0 1px #ffffff80}
+.card{border:1px solid #e9c98c55;background:linear-gradient(145deg,#7a122b 0%,#5b0719 62%,#761329 100%)}
+.names,.opening-names{filter:drop-shadow(0 3px 8px #650b1d16)}
+.kicker,.album h2,.location h2,.guest h2{position:relative}.kicker:after,.album h2:after,.location h2:after,.guest h2:after{content:"♥";display:block;margin:12px auto 0;color:#c9a35b;font-size:13px;letter-spacing:0}
+.opening-card{overflow:hidden;border:1px solid #d7bd8c88;background:linear-gradient(145deg,#fffaf5,#f8eee7);box-shadow:0 28px 80px #21000866, inset 0 0 0 7px #fff8}
+.opening-card:before{content:"🌸"!important;border:0!important;width:auto!important;height:auto!important;font-size:72px;left:-8px!important;top:-16px!important;opacity:.45;filter:drop-shadow(0 8px 12px #7b153022)}
+.opening-card:after{content:"🌹"!important;border:0!important;width:auto!important;height:auto!important;font-size:68px;right:-5px!important;bottom:-14px!important;opacity:.42;filter:drop-shadow(0 8px 12px #7b153022)}
+.opening-btn{background:linear-gradient(135deg,#7b1028,#520714);box-shadow:0 10px 25px #650b1d55, inset 0 1px #ffffff33;transition:.25s ease}.opening-btn:hover{transform:translateY(-2px) scale(1.025);box-shadow:0 14px 30px #650b1d66}
+.wedding-float-layer{position:fixed;inset:0;z-index:95;pointer-events:none;overflow:hidden}.float-love{position:absolute;opacity:.55;filter:drop-shadow(0 5px 8px #7d102822);animation:loveDrift var(--dur) ease-in-out infinite alternate}.float-love.heart{color:#d4778d;font-size:var(--sz)}.float-love.bird{font-size:var(--sz)}
+@keyframes loveDrift{from{transform:translate3d(0,0,0) rotate(-5deg)}to{transform:translate3d(var(--dx),-22px,0) rotate(7deg)}}
+.love-divider{display:flex;align-items:center;justify-content:center;gap:12px;margin:20px auto;color:#c49a55}.love-divider:before,.love-divider:after{content:"";height:1px;width:70px;background:linear-gradient(90deg,transparent,#c9a35b)}.love-divider:after{transform:scaleX(-1)}
+.couple-birds{font-size:42px;letter-spacing:-8px;margin:6px 0 14px;animation:birdsFloat 3.8s ease-in-out infinite;filter:drop-shadow(0 7px 8px #5d09171f)}@keyframes birdsFloat{50%{transform:translateY(-6px) scale(1.03)}}
+.slide.active{box-shadow:0 24px 60px #650b1d35,0 0 0 5px #fff,0 0 0 6px #c9a35b55}.slide img{transition:transform 5s ease}.slide.active img{transform:scale(1.035)}
+.music{background:linear-gradient(145deg,#7b1028,#500613);border:1px solid #e6c27b66;box-shadow:0 10px 30px #3905104d, inset 0 1px #fff3;backdrop-filter:blur(12px)}
+@media(max-width:600px){.section:after{inset:7px;border-radius:18px}.float-love.bird{display:none}.opening-card:before,.opening-card:after{font-size:52px!important}}
+
+
+/* ===== PHÔNG CHỮ CƯỚI CAO CẤP ===== */
+body{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;letter-spacing:.15px}
+.kicker,.sub,.date,.parent h3,.calendar,.counter,.auto-hint,.opening-date,.opening-sub,.opening-hint,.mapbtn,.guest input,.guest textarea,.guest button{font-family:'Montserrat',Arial,sans-serif}
+.names,.script,.hero .script-line,.calendar-title,.opening-names{font-family:'Great Vibes',cursive}
+.names{font-weight:400;letter-spacing:.5px}
+.hero .names{letter-spacing:1px}
+.card h2,.album h2,.location h2,.guest h2,.event h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;letter-spacing:2px}
+.fullnames{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;letter-spacing:.4px}
+.fullnames small{font-family:'Montserrat',Arial,sans-serif;font-weight:500}
+.event-date b{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500}
+.opening-names{font-weight:400}
+.opening-and,.seal,.music,.arrow{font-family:Georgia,serif}
+.guestbox,.msg,.footer{font-family:'Cormorant Garamond',Georgia,serif}
+.msg strong{font-family:'Montserrat',Arial,sans-serif;font-weight:600}
+
+</style>
+</head>
+<body  class="invite-locked">
+<div class="wedding-float-layer" aria-hidden="true">
+<span class="float-love heart" style="left:5%;top:18%;--sz:24px;--dur:5s;--dx:16px">♡</span><span class="float-love heart" style="right:6%;top:34%;--sz:31px;--dur:6.5s;--dx:-18px">♥</span><span class="float-love heart" style="left:8%;top:72%;--sz:20px;--dur:7s;--dx:24px">♡</span><span class="float-love bird" style="right:4%;top:66%;--sz:30px;--dur:5.5s;--dx:-12px">🕊️</span><span class="float-love bird" style="left:3%;top:48%;--sz:26px;--dur:6s;--dx:12px">🕊️</span>
+</div>
+
+<div id="openingScreen">
+  <div class="opening-card">
+    <div class="opening-heart">♥</div>
+    <div class="opening-names">Sỹ Vỹ</div>
+    <div class="opening-and">&amp;</div>
+    <div class="opening-names">Thu Thảo</div>
+    <div class="opening-date">18 tháng 9, 2026</div>
+    <div class="opening-sub">Thân Mời</div>
+    <button id="openInvitation" class="opening-btn" type="button">Mở thiệp</button>
+  </div>
+  <div class="opening-hint">CHẠM “MỞ THIỆP” ĐỂ XEM THIỆP</div>
+</div>
+
+
+
+
+</div>
+
+<div id="heartBurstLayer"></div><div class="petals-layer" aria-hidden="true"><i class="floating-petal"></i><i class="floating-petal"></i><i class="floating-petal"></i><i class="floating-petal"></i><i class="floating-petal"></i><i class="floating-petal"></i></div>
+<main class="page"><div class="floral-decor" aria-hidden="true">
+  <div class="flower-cluster tl"><span class="stem"></span><i class="leaf l1"></i><i class="leaf l2"></i><i class="leaf l3"></i><i class="flower f1"></i><i class="flower f2"></i><i class="flower f3"></i></div>
+  <div class="flower-cluster tr"><span class="stem"></span><i class="leaf l1"></i><i class="leaf l2"></i><i class="leaf l3"></i><i class="flower f1"></i><i class="flower f2"></i><i class="flower f3"></i></div>
+  <div class="flower-cluster bl"><span class="stem"></span><i class="leaf l1"></i><i class="leaf l2"></i><i class="leaf l3"></i><i class="flower f1"></i><i class="flower f2"></i><i class="flower f3"></i></div>
+  <div class="flower-cluster br"><span class="stem"></span><i class="leaf l1"></i><i class="leaf l2"></i><i class="leaf l3"></i><i class="flower f1"></i><i class="flower f2"></i><i class="flower f3"></i></div>
+</div>
+<section class="section reveal hero paper">
+  <div class="kicker">SAVE THE DATE</div>
+  <div class="envelope">
+    <div class="photo"><img src="images/cover.jpg" alt="Sỹ Vỹ và Thu Thảo"></div>
+    <div class="envelope-body"></div><div class="seal">♡</div>
+  </div>
+  <div class="hero-names"><div class="couple-birds" aria-hidden="true">🕊️ ♥ 🕊️</div><div class="love-divider">♡</div><div class="names"><span>Sỹ Vỹ</span><span>Thu Thảo</span></div><div class="script-line">Together with their families</div><div class="date">18 · 09 · 2026</div></div>
+</section>
+<section class="section reveal paper">
+  <div class="card">
+    <h2>TRÂN TRỌNG KÍNH MỜI</h2>
+    <div class="parents">
+      <div class="parent"><h3>NHÀ TRAI</h3><p>Ông Hồ Sỹ Ngoan<br>Bà Hồ Thị Hằng</p><p>Thôn 1, xã Quỳnh Sơn,<br>tỉnh Nghệ An</p></div>
+      <div class="parent"><h3>NHÀ GÁI</h3><p>Ông Trần Lại<br>Bà Nguyễn Thị Vân</p><p>Tổ 31, phường Cẩm Lệ,<br>thành phố Đà Nẵng</p></div>
+    </div>
+    <div class="divider"></div>
+    <div class="fullnames">Hồ Sỹ Vỹ<small>ÚT NAM</small><div class="amp">&amp;</div>Trần Thị Thu Thảo<small>TRƯỞNG NỮ</small></div>
+  </div>
+</section>
+<section class="section reveal album paper">
+  <h2>ALBUM ẢNH</h2><div class="stage" id="stage"></div>
+  <button class="arrow left" id="prev">‹</button><button class="arrow right" id="next">›</button>
+  <div class="dots" id="dots"></div><div class="counter" id="counter"></div>
+</section>
+<section class="section reveal event">
+ <div class="card">
+  <h2>TIỆC CƯỚI</h2><div class="sub">CÙNG ĐẾM NGƯỢC ĐẾN NGÀY HẠNH PHÚC</div>
+  <div class="event-date"><b>18</b><span>THÁNG 09<br>2026<br>THỨ SÁU</span></div>
+  <div class="sub">09:00</div>
+  <div class="sub" style="margin-top:8px">TỨC NGÀY 8 THÁNG 8 NĂM BÍNH NGỌ</div>
+  <div class="count"><div class="unit"><b id="d">--</b><small>NGÀY</small></div><div class="unit"><b id="h">--</b><small>GIỜ</small></div><div class="unit"><b id="m">--</b><small>PHÚT</small></div><div class="unit"><b id="s">--</b><small>GIÂY</small></div></div>
+  <div class="calendar"><div class="calendar-title">Tháng 9 / 2026</div><div class="week"><span>T2</span><span>T3</span><span>T4</span><span>T5</span><span>T6</span><span>T7</span><span>CN</span></div><div class="days" id="days"></div></div>
+ </div>
+</section>
+<section class="section reveal location paper"><h2>TIỆC CƯỚI SẼ TỔ CHỨC TẠI</h2><p>Nhà Hàng Tiệc Cưới Đức Tài Tâm Đạt<br>Khối 5, Quỳnh Lưu, Nghệ An</p><iframe class="map" src="https://www.google.com/maps?q=19.14363367260921,105.62824629435104&z=16&output=embed" loading="lazy" allowfullscreen></iframe><a class="mapbtn" target="_blank" href="https://www.google.com/maps?q=19.14363367260921,105.62824629435104">MỞ GOOGLE MAPS</a></section>
+<section class="section reveal guest paper"><h2>SỔ LƯU BÚT</h2><div class="guestbox"><input id="gname" placeholder="Nhập tên *"><textarea id="gmsg" placeholder="Nhập lời chúc *"></textarea><button id="send">GỬI LỜI CHÚC</button><div class="messages" id="messages"></div></div><div class="footer">Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi ♡</div></section>
+</main>
+<button class="music" id="music" title="Bật / tắt nhạc">♫</button><audio id="audio" src="wedding.mp3" loop preload="auto"></audio>
+<script>
+const imgs=[1,3,6,9,11].map(i=>`images/${i}.jpg`),stage=document.getElementById('stage'),dots=document.getElementById('dots'),counter=document.getElementById('counter');let idx=0;
+imgs.forEach((src,i)=>{let el=document.createElement('div');el.className='slide';el.innerHTML=`<img src="${src}" alt="Ảnh cưới ${i+1}">`;stage.appendChild(el);let dot=document.createElement('i');dot.className='dot';dot.onclick=()=>{idx=i;render()};dots.appendChild(dot)});const slides=[...document.querySelectorAll('.slide')],dotEls=[...document.querySelectorAll('.dot')];
+function render(){
+  slides.forEach((el,i)=>{
+    const d=(i-idx+imgs.length)%imgs.length;
+    let cls='slide';
+    if(d===0) cls+=' active';
+    else if(d===1) cls+=' next';
+    else if(d===imgs.length-1) cls+=' prev';
+    else if(d===2) cls+=' farnext';
+    else if(d===imgs.length-2) cls+=' farprev';
+    el.className=cls;
+  });
+  dotEls.forEach((d,i)=>d.classList.toggle('active',i===idx));
+  counter.textContent=String(idx+1).padStart(2,'0')+' / '+String(imgs.length).padStart(2,'0');
+}
+render();
+document.getElementById('prev').onclick=()=>{idx=(idx-1+imgs.length)%imgs.length;render()};document.getElementById('next').onclick=()=>{idx=(idx+1)%imgs.length;render()};setInterval(()=>{idx=(idx+1)%imgs.length;render()},4500);
+let sx=0;stage.addEventListener('pointerdown',e=>sx=e.clientX);stage.addEventListener('pointerup',e=>{let dx=e.clientX-sx;if(Math.abs(dx)>40){idx=(idx+(dx<0?1:-1)+imgs.length)%imgs.length;render()}});
+const target=new Date('2026-09-18T09:00:00+07:00');function countdown(){let x=Math.max(0,target-new Date()),sec=Math.floor(x/1000);document.getElementById('d').textContent=Math.floor(sec/86400);document.getElementById('h').textContent=String(Math.floor(sec%86400/3600)).padStart(2,'0');document.getElementById('m').textContent=String(Math.floor(sec%3600/60)).padStart(2,'0');document.getElementById('s').textContent=String(sec%60).padStart(2,'0')}setInterval(countdown,1000);countdown();
+const days=document.getElementById('days'),first=new Date(2026,8,1).getDay();let start=(first+6)%7;for(let i=0;i<start;i++)days.innerHTML+='<div></div>';for(let n=1;n<=30;n++)days.innerHTML+=`<div class="${n===18?'chosen':''}">${n}</div>`;
+const audio=document.getElementById('audio'),music=document.getElementById('music');function play(){audio.play().then(()=>music.classList.add('on')).catch(()=>{})}document.addEventListener('pointerdown',play,{once:true});music.onclick=()=>{if(audio.paused){play()}else{audio.pause();music.classList.remove('on')}};
+/* ===== SỔ LƯU BÚT DÙNG CHUNG ===== */
+const GUESTBOOK_API='https://script.google.com/macros/s/AKfycbxngc55u3lyMz0DqkmH85nkmeNqlUh4lDAUeEWv5FyzYwgTf6zObBjhdiv3-mdsui__nQ/exec';
+const gname=document.getElementById('gname'),gmsg=document.getElementById('gmsg'),messagesEl=document.getElementById('messages');
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function renderMessages(a){messagesEl.innerHTML=(a||[]).map(x=>`<div class="msg"><strong>${escapeHtml(x.n)}</strong><p>${escapeHtml(x.m)}</p></div>`).join('')||'<div style="text-align:center;color:#9b8387;font-size:13px">Hãy là người đầu tiên gửi lời chúc!</div>'}
+function guestbookCallback(data){renderMessages(data&&data.messages?data.messages:[])}
+function guestbookAdded(data){if(data&&data.ok){gname.value='';gmsg.value='';loadGuestbook();alert('Đã gửi lời chúc thành công!')}else alert('Không thể gửi lời chúc. Hãy thử lại.')}
+function jsonp(url){const sc=document.createElement('script');sc.src=url+(url.includes('?')?'&':'?')+'_='+Date.now();sc.onerror=()=>{messagesEl.innerHTML='<div style="text-align:center;color:#9b8387;font-size:13px">Không thể tải sổ lưu bút. Vui lòng thử lại.</div>'};document.body.appendChild(sc);setTimeout(()=>{try{sc.remove()}catch(e){}},10000)}
+function loadGuestbook(){jsonp(GUESTBOOK_API+'?action=list&callback=guestbookCallback')}
+function load(){loadGuestbook()}
+setInterval(loadGuestbook,20000);
+document.getElementById('send').onclick=()=>{let n=gname.value.trim(),m=gmsg.value.trim();if(!n||!m)return alert('Vui lòng nhập tên và lời chúc.');jsonp(GUESTBOOK_API+'?action=add&name='+encodeURIComponent(n)+'&message='+encodeURIComponent(m)+'&callback=guestbookAdded')};
+load();
+
+/* =========================================================
+   AUTO SCROLL FINAL - ĐƠN GIẢN VÀ ỔN ĐỊNH
+   Mở thiệp -> cuộn liên tục -> cuối trang -> về đầu -> lặp.
+   ========================================================= */
+(function(){
+  var autoTimer=null;
+  var restartTimer=null;
+  var running=false;
+  var speed=1;        // pixel mỗi 25ms = ~40px/giây
+  var interval=25;
+  var endWait=2500;
+
+  function getY(){
+    return window.pageYOffset ||
+           document.documentElement.scrollTop ||
+           document.body.scrollTop || 0;
+  }
+
+  function getMax(){
+    return Math.max(
+      0,
+      document.documentElement.scrollHeight,
+      document.body ? document.body.scrollHeight : 0
+    ) - window.innerHeight;
+  }
+
+  function scrollTopNow(){
+    window.scrollTo(0,0);
+    document.documentElement.scrollTop=0;
+    if(document.body) document.body.scrollTop=0;
+  }
+
+  function stop(){
+    running=false;
+    if(autoTimer){ clearInterval(autoTimer); autoTimer=null; }
+    if(restartTimer){ clearTimeout(restartTimer); restartTimer=null; }
+  }
+
+  function oneStep(){
+    if(!running || document.body.classList.contains('invite-locked')) return;
+
+    var y=getY();
+    var max=getMax();
+
+    if(max<=5) return;
+
+    if(y >= max-2){
+      // Đã đến cuối trang: dừng hẳn, KHÔNG quay lại đầu.
+      running=false;
+      if(autoTimer){clearInterval(autoTimer);autoTimer=null;}
+      if(restartTimer){clearTimeout(restartTimer);restartTimer=null;}
+      return;
+    }
+
+    window.scrollTo(0,y+speed);
+  }
+
+  function start(){
+    if(document.body.classList.contains('invite-locked')) return;
+
+    stop();
+    running=true;
+    scrollTopNow();
+
+    // Bắt đầu sau khi layout đã ổn định.
+    setTimeout(function(){
+      if(!running) return;
+      oneStep();
+      autoTimer=setInterval(oneStep,interval);
+    },900);
+  }
+
+  // Expose for the Mở thiệp button.
+  window.startInvitationAutoRun=start;
+
+  // Khi người dùng cuộn/chạm: tạm dừng tự động nhưng KHÔNG đưa trang về đầu.
+  // Sau 3 giây, tiếp tục từ đúng vị trí hiện tại.
+  var userResume;
+  function userAction(){
+    if(!running) return;
+    running=false;
+    if(autoTimer){clearInterval(autoTimer);autoTimer=null;}
+    clearTimeout(userResume);
+    userResume=setTimeout(function(){
+      if(document.body.classList.contains('invite-locked')) return;
+      var max=getMax();
+      var y=getY();
+      if(y >= max-2){ running=false; return; }
+      running=true;
+      oneStep();
+      if(running) autoTimer=setInterval(oneStep,interval);
+    },3000);
+  }
+
+  window.addEventListener('wheel',userAction,{passive:true});
+  window.addEventListener('touchmove',userAction,{passive:true});
+
+  // Nút nhỏ bật/tắt tự động.
+  function badge(){
+    if(document.getElementById('autoRunBadge')) return;
+    var b=document.createElement('button');
+    b.id='autoRunBadge';
+    b.type='button';
+    b.textContent='AUTO ▶';
+    b.style.cssText='position:fixed;right:18px;bottom:18px;z-index:99999;border:0;border-radius:22px;padding:9px 14px;background:#650b1d;color:#fff;font:12px Georgia,serif;box-shadow:0 5px 16px #0003;cursor:pointer';
+    b.onclick=function(e){
+      e.preventDefault(); e.stopPropagation();
+      if(running){stop();b.textContent='AUTO ⏸';}
+      else {start();b.textContent='AUTO ▶';}
+    };
+    document.body.appendChild(b);
+  }
+
+  function boot(){
+    badge();
+    // Không tự chạy trước khi Mở thiệp.
+    if(!document.body.classList.contains('invite-locked')){
+      setTimeout(start,1000);
+    }
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',boot);
+  }else{boot();}
+
+  window.addEventListener('load',function(){
+    badge();
+    if(!document.body.classList.contains('invite-locked') && !running) setTimeout(start,1200);
+  });
+})();
+
+
+/* ===== MỞ THIỆP ===== */
+(function(){
+  function doOpen(){
+    var screen=document.getElementById('openingScreen');
+    var audio=document.getElementById('audio');
+
+    if(audio){
+      audio.loop=true;
+      audio.volume=0.85;
+      try{
+        var p=audio.play();
+        if(p && p.catch) p.catch(function(){});
+      }catch(e){}
+    }
+
+    document.body.classList.remove('invite-locked');
+    if(screen) screen.classList.add('opened');
+
+    setTimeout(function(){
+      window.scrollTo(0,0);
+      if(window.startInvitationAutoRun) window.startInvitationAutoRun();
+    },800);
+  }
+
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest ? e.target.closest('#openInvitation') : null;
+    if(btn){
+      e.preventDefault();
+      e.stopPropagation();
+      doOpen();
+    }
+  },false);
+})();
+
+
+/* TRÁI TIM TỎA RA — chỉ thêm hiệu ứng, giữ nguyên toàn bộ trang chính */
+(function(){
+  function burstHearts(){
+    var layer=document.getElementById('heartBurstLayer');
+    if(!layer)return;
+    layer.innerHTML='';
+    var colors=['#f6b8c8','#ffffff','#e58c9f','#efd2ad','#d8667d'];
+    var total=38;
+    for(var i=0;i<total;i++){
+      var h=document.createElement('span');
+      h.className='heart-burst-item';
+      h.textContent='♥';
+      var angle=(Math.PI*2*i/total)+(Math.random()-.5)*.28;
+      var dist=110+Math.random()*290;
+      var x=Math.cos(angle)*dist, y=Math.sin(angle)*dist;
+      h.style.setProperty('--hx',x.toFixed(0)+'px');
+      h.style.setProperty('--hy',y.toFixed(0)+'px');
+      h.style.setProperty('--hx1',(x*.42).toFixed(0)+'px');
+      h.style.setProperty('--hy1',(y*.42).toFixed(0)+'px');
+      h.style.setProperty('--hs',(13+Math.random()*22).toFixed(0)+'px');
+      h.style.setProperty('--hd',(1.0+Math.random()*.55).toFixed(2)+'s');
+      h.style.setProperty('--hdelay',(Math.random()*.12).toFixed(2)+'s');
+      h.style.setProperty('--hc',colors[Math.floor(Math.random()*colors.length)]);
+      layer.appendChild(h);
+    }
+    setTimeout(function(){layer.innerHTML=''},1900);
+  }
+
+  var oldOpen=window.playOpeningHearts;
+  window.playOpeningHearts=burstHearts;
+
+  // Chèn hiệu ứng vào chính nút Mở thiệp hiện tại, không thay đổi luồng trang chính.
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest ? e.target.closest('#openInvitation') : null;
+    if(!btn)return;
+    burstHearts();
+    var card=document.querySelector('.opening-card');
+    if(card){
+      card.classList.remove('heart-pop');
+      void card.offsetWidth;
+      card.classList.add('heart-pop');
+    }
+  },true);
+})();
+
+</script></body></html>
